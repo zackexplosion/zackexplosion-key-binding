@@ -1,6 +1,9 @@
 [
-	{ "keys": ["super+g", "super+b"], "command": "toggle_side_bar" },
-	{ "keys": ["super+g", "super+up"], "command": "new_pane" },
+	{ "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false} },
 	{ "keys": ["super+g", "super+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
 	{ "keys": ["super+g", "super+right"], "command": "focus_neighboring_group" },
+	{ "keys": ["super+g", "super+up"], "command": "new_pane" },
+	{ "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+tab"], "command": "prev_view_in_stack" },
+	{ "keys": ["ctrl+shift+tab"], "command": "next_view_in_stack" }
 ]
