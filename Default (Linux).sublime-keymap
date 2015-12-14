@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+g", "ctrl+b"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+g", "ctrl+up"], "command": "new_pane" },
+	{ "keys": ["ctrl+g", "ctrl+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+	{ "keys": ["ctrl+g", "ctrl+right"], "command": "focus_neighboring_group" }
+]
