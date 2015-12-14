@@ -1,2 +1,2 @@
-# my-sublime-text-key-binding
+# Sublime Text Key Binding
 just a backup for my sublime text
