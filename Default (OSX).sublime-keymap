@@ -1,6 +1,7 @@
 [
-	{ "keys": ["super+g", "super+b"], "command": "toggle_side_bar" },
-	{ "keys": ["super+g", "super+up"], "command": "new_pane" },
-	{ "keys": ["super+g", "super+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
-	{ "keys": ["super+g", "super+right"], "command": "focus_neighboring_group" }
+  { "keys": ["super+g", "super+b"], "command": "toggle_side_bar" },
+  { "keys": ["super+g", "super+up"], "command": "new_pane" },
+  { "keys": ["super+g", "super+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+  { "keys": ["super+g", "super+right"], "command": "focus_neighboring_group" },
+  { "keys": ["super+g", "super+g"], "command": "focus_side_bar" },
 ]
