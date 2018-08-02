@@ -1,2 +1,2 @@
-# Sublime Text Key Binding
-just a backup for my sublime text
+# Zackexplotion Key Bindings
+just a backup for my key bindings
