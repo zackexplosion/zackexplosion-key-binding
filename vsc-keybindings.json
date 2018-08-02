@@ -1,0 +1,65 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+g cmd+left",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "cmd+k cmd+right",
+        "command": "-workbench.action.focusNextGroup"
+    },
+    {
+        "key": "cmd+g cmd+right",
+        "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "cmd+k cmd+left",
+        "command": "-workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "cmd+g cmd+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+k cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+      "key": "alt+left",
+      "command": "workbench.action.terminal.focusPreviousPane",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "alt+cmd+left",
+      "command": "-workbench.action.terminal.focusPreviousPane",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "alt+right",
+      "command": "workbench.action.terminal.focusNextPane",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "alt+cmd+right",
+      "command": "-workbench.action.terminal.focusNextPane",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "cmd+g cmd+up",
+      "command": "workbench.action.splitEditor"
+    },
+    {
+      "key": "cmd+k cmd+up",
+      "command": "-workbench.action.splitEditor"
+    },
+    {
+      "key": "cmd+numpad_divide",
+      "command": "editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+/",
+      "command": "-editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+    }
+  ]
