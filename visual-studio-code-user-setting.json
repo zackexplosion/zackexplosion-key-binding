@@ -1,0 +1,10 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "search.useIgnoreFiles": false,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "javascript.implicitProjectConfig.experimentalDecorators": true
+}
