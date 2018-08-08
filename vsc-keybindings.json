@@ -61,5 +61,10 @@
       "key": "cmd+/",
       "command": "-editor.action.commentLine",
       "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+`",
+      "command": "workbench.action.terminal.focus",
+      "when": "!terminalFocus"
     }
   ]
