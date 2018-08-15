@@ -8,6 +8,7 @@
     "editor.detectIndentation": false,
     "javascript.implicitProjectConfig.experimentalDecorators": true,
     "breadcrumbs.enabled": true,
+    "eslint.autoFixOnSave": true,
     "eslint.validate": [
       "javascript",
       "javascriptreact",
